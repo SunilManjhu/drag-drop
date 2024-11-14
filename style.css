@@ -1,0 +1,38 @@
+/* Existing styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 150px); /* 5 columns */
+    gap: 10px;
+}
+
+.grid-cell {
+    width: 150px;
+    height: 150px;
+    border: 2px dashed #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.grid-cell img {
+    max-width: 100%;
+    max-height: 100%;
+    pointer-events: none; /* Disable image selection during drag */
+}
+
+/* New highlight class for drag-over effect */
+.highlight-drop {
+    background-color: #e0ffe0; /* Light green highlight */
+}
