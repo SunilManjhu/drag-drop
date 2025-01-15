@@ -44,6 +44,10 @@ Ensure you have a basic web server to host the files, or open `index.html` direc
 
 To see a live demo, open the `index.html` file in a web browser.
 
+### Screenshot
+
+![Sample](/ImgSRC/Sample.png)
+
 ### License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
